@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../Documentation/alert.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0ae1aebe6f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h2 class="main__section-title">Input sizes</h2>
+    <div class="example">
+        <div class="input-group  flex-start ">
+            <label for="username">Small input <strong>*</strong></label>
+            <input class=" border-2 input-sm" type="text" name="username" id="username" placeholder="Enter username"/>
+        </div>
+        <div class="input-group  flex-start ">
+            <label for="username">Medium input <strong>*</strong></label>
+            <input class=" border-2 input-md" type="text" name="username" id="username" placeholder="Enter username"/>
+        </div>
+        <div class="input-group  flex-start ">
+            <label for="username">Large input <strong>*</strong></label>
+            <input class=" border-2 input-lg" type="text" name="username" id="username" placeholder="Enter username"/>
+        </div>
+        <div class="input-group  flex-start ">
+            <label for="username">Large input rounded <strong>*</strong></label>
+            <input class="input-round input-lg  border-2" type="text" name="username" id="username" placeholder="Enter username"/>
+        </div>
+        <div class="input-group  flex-start ">
+            <label for="username">Large input corner rounded <strong>*</strong></label>
+            <input class="input-corner input-lg  border-2" type="text" name="username" id="username" placeholder="Enter username"/>
+        </div>
+        <div class="input-group  flex-start ">
+            <label for="username">Large input active <strong>*</strong></label>
+            <input class="input-corner input-lg  border-2 active" type="text" name="username" id="username" placeholder="Enter username"/>
+        </div>
+        <div class="input-group  flex-start ">
+            <label for="username">Large input mandatory <strong class="input-mandatory">*</strong></label>
+            <input class="input-corner input-lg  border-2" type="text" name="username" id="username" placeholder="Enter username"/>
+        </div>
+    </div>
+    <h2 class="main__section-title">Validation input</h2>
+
+    <div class="example">
+        <div class="input-group  flex-start ">
+            <label for="username" class="input-label">Successful validation  <strong>*</strong></label>
+            <input class="border-2 input-md input-success" type="text" name="username" id="username" placeholder="Enter username"/>
+            <div class="input-validation input-validation-md input-validation-success"><i class="fas fa-check-circle validation-icon"></i>Valid username</div>
+        </div>        
+        <div class="input-group  flex-start ">
+            <label for="username" class="input-label">Failed validation  <strong class="input-mandatory">*</strong></label>
+            <input class="border-2 input-lg input-fail" type="password" name="username" id="username" placeholder="Enter username"/>
+            <div class="input-validation input-validation-lg input-validation-fail"><i class="fas fa-times-circle validation-icon"></i>Invalid password</div>
+        </div>
+
+    </div>
+
+    </div>
+  </body>
+</html>
